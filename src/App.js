@@ -39,7 +39,7 @@ class App extends Component {
       <div className="App">
         <h1 className="title">Bonjour. Voici des chats :</h1>
         <ul className="grid">
-          {this.state.results.map((res, index) => (
+          {this.state.results.map(res => (
             <li key={res.id} className="element">
               <img className="catImage" src={res.url} alt="cat" />
               <button onClick={() => this.onDelete(res.id)}>
