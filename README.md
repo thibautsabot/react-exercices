@@ -14,3 +14,6 @@ This is a minimal boilerplate to help you start quickly with a React app
 
 
 Packing, transpilation and all complicated stuff are being handled behind the scene
+
+
+(Solution branch : https://github.com/thibautsabot/react-exercices/tree/solution)
